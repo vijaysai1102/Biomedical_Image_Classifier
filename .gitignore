@@ -17,6 +17,9 @@ chest_xray/
 venv/
 .venv/
 
+# Gradio
+flagged/
+
 # OS files
 .DS_Store
 Thumbs.db
