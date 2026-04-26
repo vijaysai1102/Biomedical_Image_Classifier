@@ -25,7 +25,7 @@ Pneumonia detection from chest X-rays using deep learning. Two models are implem
 
 | Model | Test Accuracy | Precision | Recall | F1 | ROC-AUC |
 |---|---|---|---|---|---|
-| Baseline CNN (from scratch) | 74–75% | — | — | — | — |
+| Baseline CNN (from scratch) | 74–75% | ~82% | ~88% | ~85% | ~0.80 |
 | ResNet50 (fine-tuned) | 92–93% | 90.5% | 98.2% | 94.2% | ~97.5% |
 
 ---
