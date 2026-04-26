@@ -1,3 +1,15 @@
+---
+title: PneumoNet - Pneumonia Detection
+emoji: 🫁
+colorFrom: blue
+colorTo: green
+sdk: gradio
+sdk_version: "4.44.1"
+python_version: "3.10"
+app_file: app.py
+pinned: false
+---
+
 # PneumoNet — Biomedical Image Classifier
 
 Pneumonia detection from chest X-rays using two models: a custom CNN baseline and a fine-tuned ResNet50. Includes Grad-CAM, SHAP, and LIME explainability, plus a Gradio web interface.
