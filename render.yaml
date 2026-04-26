@@ -3,7 +3,7 @@ services:
     name: pneumonet
     env: python
     plan: free
-    buildCommand: pip install -r requirements_deploy.txt
+    buildCommand: pip install -r requirements.txt
     startCommand: python app.py
     envVars:
       - key: PYTHON_VERSION
