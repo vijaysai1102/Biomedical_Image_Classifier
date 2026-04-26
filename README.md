@@ -36,11 +36,24 @@ Biomedical_Image_Classifier/
 
 ---
 
-## Setup
+## Deployment
+
+Deployed on **Hugging Face Spaces** — [live demo link here once deployed]
+
+---
+
+## Local Setup
 
 **1. Install dependencies**
+
+For running the app only:
 ```bash
 pip install -r requirements.txt
+```
+
+For notebooks (training, evaluation, explainability):
+```bash
+pip install -r requirements_dev.txt
 ```
 
 **2. Download the dataset**
