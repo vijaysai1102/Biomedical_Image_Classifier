@@ -1,0 +1,23 @@
+dataset:
+  path: "chest_xray"       # relative to project root
+  batch_size: 32
+  num_workers: 0            # set to 0 on Windows; increase on Linux/Mac
+  image_size: 224
+
+training:
+  cnn:
+    lr: 0.001
+    epochs: 10
+
+  resnet50:
+    head_lr: 0.0001
+    finetune_lr: 0.00001
+    head_epochs: 12
+    finetune_epochs: 5
+    scheduler_step: 3
+    scheduler_gamma: 0.1
+
+models:
+  # Move .pth files from project root into models/ after training
+  cnn_path: "models/pneumonet_cnn.pth"
+  resnet50_path: "models/pneumonet_resnet50_finetuned.pth"
